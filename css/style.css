@@ -83,6 +83,10 @@ section {
     margin-bottom: 30px;
 }
 
+.main div img {
+    border-radius: 10px;
+}
+
 .main-btn {
     color: var(--secondaryColor);
     background-color: var(--primaryColor);
@@ -134,7 +138,7 @@ section {
 
 .content {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
